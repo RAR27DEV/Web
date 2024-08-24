@@ -7,9 +7,9 @@ const storyDialog = [
 
 // Array gambar yang sesuai dengan dialog
 const storyImages = [
-    "image/baik.jpg", // Gambar untuk dialog pertama
-    "image/capek.png",   // Gambar untuk dialog kedua
-    "image/curiga.jpg"    // Gambar untuk dialog ketiga
+    "baik.jpg", // Gambar untuk dialog pertama
+    "capek.png",   // Gambar untuk dialog kedua
+    "curiga.jpg"    // Gambar untuk dialog ketiga
 ];
 
 let currentDialogIndex = 0;
