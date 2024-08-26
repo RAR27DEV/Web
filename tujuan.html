@@ -24,6 +24,14 @@
             <span id="next-arrow" onclick="nextDialog()">➡️</span>
         </div>
     </div>
+    
+    <div id="end-dialog" class="modal">
+    <div class="modal-content">
+        <p id="end-message">Cerita telah berakhir.</p>
+        <button onclick="goToMainMenu()">Main Menu</button>
+        <button onclick="restartStory()">Mulai Ulang Cerita</button>
+    </div>
+    </div>
 
     <audio id="background-music" loop>
         <source src="lookback.mp3" type="audio/mpeg">
