@@ -56,6 +56,7 @@ h1 {
     padding: 20px;
     border-radius: 10px;
     margin-top: 20px;
+    cursor: pointer;
 }
 #dialog-text {
     font-size: 18px;
@@ -68,6 +69,7 @@ h1 {
     font-size: 24px;
     cursor: pointer;
     animation: bounce 1s infinite;
+    pointer-events: none;
 }
 @keyframes bounce {
     0%, 100% { transform: translateY(0); }
