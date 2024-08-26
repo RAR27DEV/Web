@@ -68,7 +68,28 @@ function nextDialog() {
     if (currentDialog < dialogs.length - 1) {
         currentDialog++;
         updateDialog();
+    } else {
+        showEndDialog();
     }
+}
+
+function showEndDialog() {
+    document.getElementById('end-dialog').style.display = 'block';
+}
+
+function goToMainMenu() {
+    document.getElementById('end-dialog').style.display = 'none';
+    document.getElementById('game-container').style.display = 'none';
+    document.getElementById('intro-container').style.display = 'block';
+    currentDialog = -1;
+    document.getElementById('background-music').pause();
+    document.getElementById('background-music').currentTime = 0;
+}
+
+function restartStory() {
+    document.getElementById('end-dialog').style.display = 'none';
+    currentDialog = -1;
+    nextDialog();
 }
 
 function previousDialog() {
