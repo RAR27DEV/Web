@@ -1,22 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Nguawur buatan dev Kingpinix</title>
+    <title>Web Game Dev Kingpinix</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="landing-container">
-        <h1>Selamat mencoba game yang sudah di siapkan</h1>
-        <p>Pilih game mana yang kamu ingin mainkan</p>
-        
-        <div class="options-container">
-            <button class="option-button" onclick="window.location.href='game.html'">Quiz Rek</button>
-            <button class="option-button" onclick="window.location.href='substory.html'">Story cuyy</button>
-            <button class="option-button" onclick="window.location.href=''">Tebak Musik(cooming soon)</button>
-            <button class="option-button" onclick="window.location.href='starpuzzle.html'">Puzzle</button>
+    <header>
+        <h1>Welcome to Web Nguawur</h1>
+        <p>by dev kingpinix</p>
+    </header>
+    <main>
+        <div class="button-container">
+            <button class="option-button" data-icon="📖">Story</button>
+            <button class="option-button" data-icon="❓">Kuis</button>
+            <button class="option-button" data-icon="🧩">Puzzle</button>
+            <button class="option-button" data-icon="🔜">Coming Soon</button>
         </div>
-    </div>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
