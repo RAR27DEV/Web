@@ -17,9 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 case 'coming soon':
                     window.location.href = 'musik.html';
                     break;
-                default:
-                    alert('Halaman tidak tersedia');
-            }
+                }
         });
     });
 });
