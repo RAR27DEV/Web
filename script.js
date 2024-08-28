@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 case 'puzzle':
                     window.location.href = 'starpuzzle.html';
                     break;
-                case 'coming soon':
+                case 'musik':
                     window.location.href = 'musik.html';
                     break;
                 }
