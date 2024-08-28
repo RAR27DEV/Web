@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     window.location.href = 'starpuzzle.html';
                     break;
                 case 'coming soon':
-                    alert('Developer masih nyari ide jadi sabarya, kalau mau cepat kasi ide aja lansunng ke developernya');
+                    window.location.href = 'musik.html';
                     break;
                 default:
                     alert('Halaman tidak tersedia');
